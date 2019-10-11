@@ -13,17 +13,19 @@ public class MyList
         this.lk = lk;
     }
 
-    // Push Method.
-    public void myPush(int x) // Anytype 
+    // Insert item x on the front end of the MyList.
+    public void myPush(int x)  
     {
         lk.push(x);
     }
     
+    // Remove the front item from the MyList and return it. 
     public Object myPop()
     {
         return lk.pop();
     }
     
+    //  Insert item x on the rear end of the MyList. 
     public void myInject(int x)
     {
         lk.addLast(x);
